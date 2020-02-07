@@ -15,12 +15,10 @@ This is an example project for the purposes of demonstration only. It is not rec
 2. Run `docker-compose build`
 3. Run `docker-compose up` to launch MongoDB, NGINX, and Node.js development containers.
 4. Once started, [load any page](http://localhost:8888/) to test four methods of adding a hit counter:
-
    * <http://localhost:8888/page-svg.html>
    * <http://localhost:8888/page-jswrite.html>
    * <http://localhost:8888/page-jsdefer.html>
    * <http://localhost:8888/page-jsajax.html>
-
 
 *If any Docker command fails, run `docker system prune` to remove all stopped containers and dangling images to ensure there are no conflicts with other versions of the page hit counter.*
 
